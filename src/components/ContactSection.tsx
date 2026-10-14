@@ -114,7 +114,7 @@ export default function ContactSection() {
             </div>
           </div>
         </aside>
-
+    
         <form className="form reveal" id="quoteForm" onSubmit={handleSubmit}>
           <span className="eyebrow">Request a quote</span>
           <h2 style={{ fontSize: "2.35rem", marginTop: "13px" }}>
