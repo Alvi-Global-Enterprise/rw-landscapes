@@ -81,11 +81,7 @@ export default function BeforeAfterSlider({
   return (
     <div
       ref={containerRef}
-      className={`group relative select-none overflow-hidden rounded-[24px] bg-[#07130b] shadow-[0_12px_34px_rgba(10,40,17,0.09)] transition-all duration-300 hover:shadow-[0_22px_50px_rgba(10,40,17,0.18)] ${
-        isWide
-          ? "col-span-12 lg:col-span-6 h-[340px] sm:h-[380px]"
-          : "col-span-12 sm:col-span-6 lg:col-span-3 h-[320px] sm:h-[340px]"
-      }`}
+      className="group relative select-none overflow-hidden rounded-[24px] bg-[#07130b] shadow-[0_12px_34px_rgba(10,40,17,0.09)] transition-all duration-300 hover:shadow-[0_22px_50px_rgba(10,40,17,0.18)] col-span-12 lg:col-span-6 h-[380px] sm:h-[440px]"
       style={{ touchAction: "none" }}
       onMouseDown={handleMouseDown}
       onTouchStart={handleTouchStart}

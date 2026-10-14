@@ -90,71 +90,21 @@ export default function WorkGallery() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 gap-5 sm:gap-6" id="gallery">
-          {visibleProjects.map((project, index) => {
-            const hasBeforeAfter = Boolean(
-              project.beforeImage && project.afterImage
-            );
-
-            if (hasBeforeAfter) {
-              return (
-                <BeforeAfterSlider
-                  key={project.id}
-                  beforeImage={project.beforeImage!}
-                  afterImage={project.afterImage!}
-                  beforeAlt={`${project.title} - Before`}
-                  afterAlt={`${project.title} - After`}
-                  title={project.title}
-                  sub={project.sub}
-                  category={project.categoryLabel}
-                  isWide={project.isWide}
-                  onExpand={() => handleOpenLightbox(index)}
-                />
-              );
-            }
-
-            return (
-              <div
-                key={project.id}
-                className={`group relative select-none overflow-hidden rounded-[24px] bg-[#07130b] shadow-[0_12px_34px_rgba(10,40,17,0.09)] transition-all duration-300 hover:shadow-[0_22px_50px_rgba(10,40,17,0.18)] cursor-pointer ${
-                  project.isWide
-                    ? "col-span-12 lg:col-span-6 h-[340px] sm:h-[380px]"
-                    : "col-span-12 sm:col-span-6 lg:col-span-3 h-[320px] sm:h-[340px]"
-                }`}
-                onClick={() => handleOpenLightbox(index)}
-              >
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                />
-
-                {/* Category tag */}
-                <div className="absolute top-4 right-4 z-10 px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-[#bffb8c] text-[10px] font-black tracking-wider uppercase border border-white/10 shadow-md">
-                  {project.categoryLabel}
-                </div>
-
-                {/* Card Info Overlay */}
-                <div className="absolute inset-x-0 bottom-0 z-10 pt-16 pb-4 px-5 bg-gradient-to-t from-black/90 via-black/50 to-transparent flex items-end justify-between">
-                  <div>
-                    <strong className="block text-white text-base font-extrabold leading-snug drop-shadow-sm">
-                      {project.title}
-                    </strong>
-                    <small className="block text-[#d5ded7] text-xs drop-shadow-sm mt-0.5">
-                      {project.sub}
-                    </small>
-                  </div>
-
-                  <div className="w-9 h-9 rounded-full bg-[#8dff16] text-[#08130c] flex items-center justify-center font-black text-sm shrink-0 transition-transform duration-200 group-hover:scale-110 shadow-lg">
-                    ↗
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+        <div className="grid grid-cols-12 gap-6 sm:gap-8" id="gallery">
+          {visibleProjects.map((project, index) => (
+            <BeforeAfterSlider
+              key={project.id}
+              beforeImage={project.beforeImage}
+              afterImage={project.afterImage}
+              beforeAlt={`${project.title} - Before`}
+              afterAlt={`${project.title} - After`}
+              title={project.title}
+              sub={project.sub}
+              category={project.categoryLabel}
+              isWide={true}
+              onExpand={() => handleOpenLightbox(index)}
+            />
+          ))}
         </div>
 
         {/* Load more button if there are more items to display */}

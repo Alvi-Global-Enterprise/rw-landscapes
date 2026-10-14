@@ -1,4 +1,4 @@
-// Auto-generated gallery projects from public/images category folders
+// All projects configured as Wide Before/After Sliders across all categories
 export interface GalleryProject {
   id: number;
   title: string;
@@ -6,16 +6,16 @@ export interface GalleryProject {
   category: "clearance" | "turfing" | "fencing" | "patios" | "artificial-grass" | "hedges" | "pressure-washing";
   categoryLabel: string;
   image: string;
-  beforeImage?: string;
-  afterImage?: string;
-  isWide?: boolean;
+  beforeImage: string;
+  afterImage: string;
+  isWide: boolean;
 }
 
 export const galleryProjects: GalleryProject[] = [
   {
     "id": 0,
-    "title": "Dense Overgrowth Clearance",
-    "sub": "Heavy brambles and brush cleared to bare ground",
+    "title": "Garden Clearance Transformation #1",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
     "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.04%20AM.jpeg",
@@ -25,8 +25,8 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     "id": 1,
-    "title": "Garden Waste Removal",
-    "sub": "Complete clearing and ground leveling",
+    "title": "Garden Clearance Transformation #2",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
     "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.07%20AM.jpeg",
@@ -36,187 +36,117 @@ export const galleryProjects: GalleryProject[] = [
   },
   {
     "id": 2,
-    "title": "Site Clearance & Prep #1",
-    "sub": "Professional ground clearance and removal",
+    "title": "Garden Clearance Transformation #3",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(10).jpeg",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(10).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(11).jpeg",
+    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(11).jpeg",
     "isWide": true
   },
   {
     "id": 3,
-    "title": "Site Clearance & Prep #2",
-    "sub": "Professional ground clearance and removal",
+    "title": "Garden Clearance Transformation #4",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(11).jpeg",
-    "isWide": false
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(12).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(2).jpeg",
+    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(2).jpeg",
+    "isWide": true
   },
   {
     "id": 4,
-    "title": "Site Clearance & Prep #3",
-    "sub": "Professional ground clearance and removal",
+    "title": "Garden Clearance Transformation #5",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(12).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 5,
-    "title": "Site Clearance & Prep #4",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(2).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 6,
-    "title": "Site Clearance & Prep #5",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(3).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 7,
-    "title": "Site Clearance & Prep #6",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(3).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(4).jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(4).jpeg",
     "isWide": true
   },
   {
-    "id": 8,
-    "title": "Site Clearance & Prep #7",
-    "sub": "Professional ground clearance and removal",
+    "id": 5,
+    "title": "Garden Clearance Transformation #6",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(5).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 9,
-    "title": "Site Clearance & Prep #8",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(5).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(6).jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(6).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 10,
-    "title": "Site Clearance & Prep #9",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(7).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 11,
-    "title": "Site Clearance & Prep #10",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(8).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 12,
-    "title": "Site Clearance & Prep #11",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(9).jpeg",
     "isWide": true
   },
   {
-    "id": 13,
-    "title": "Site Clearance & Prep #12",
-    "sub": "Professional ground clearance and removal",
+    "id": 6,
+    "title": "Garden Clearance Transformation #7",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(7).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(8).jpeg",
+    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(8).jpeg",
+    "isWide": true
+  },
+  {
+    "id": 7,
+    "title": "Garden Clearance Transformation #8",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
+    "category": "clearance",
+    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM%20(9).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM.jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.09%20AM.jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 14,
-    "title": "Site Clearance & Prep #13",
-    "sub": "Professional ground clearance and removal",
+    "id": 8,
+    "title": "Garden Clearance Transformation #9",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(1).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 15,
-    "title": "Site Clearance & Prep #14",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(1).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(2).jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(2).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 16,
-    "title": "Site Clearance & Prep #15",
-    "sub": "Professional ground clearance and removal",
+    "id": 9,
+    "title": "Garden Clearance Transformation #10",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(3).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 17,
-    "title": "Site Clearance & Prep #16",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(3).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(4).jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(4).jpeg",
     "isWide": true
   },
   {
-    "id": 18,
-    "title": "Site Clearance & Prep #17",
-    "sub": "Professional ground clearance and removal",
+    "id": 10,
+    "title": "Garden Clearance Transformation #11",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(5).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 19,
-    "title": "Site Clearance & Prep #18",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(5).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(6).jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(6).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 20,
-    "title": "Site Clearance & Prep #19",
-    "sub": "Professional ground clearance and removal",
+    "id": 11,
+    "title": "Garden Clearance Transformation #12",
+    "sub": "Overgrown waste & brambles cleared to clean level ground",
     "category": "clearance",
     "categoryLabel": "Garden clearance",
-    "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(7).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 21,
-    "title": "Site Clearance & Prep #20",
-    "sub": "Professional ground clearance and removal",
-    "category": "clearance",
-    "categoryLabel": "Garden clearance",
+    "beforeImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM%20(7).jpeg",
+    "afterImage": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM.jpeg",
     "image": "/images/Garden%20clearance/WhatsApp%20Image%202026-10-12%20at%2011.50.10%20AM.jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 22,
-    "title": "Fresh Turf Installation",
+    "id": 12,
+    "title": "Fresh Turf Transformation #1",
     "sub": "Prepared soil transformed into vibrant green lawn",
     "category": "turfing",
     "categoryLabel": "Turfing",
@@ -226,64 +156,52 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 23,
-    "title": "Complete Lawn Makeover",
-    "sub": "Ground leveled and fresh premium turf rolled",
+    "id": 13,
+    "title": "Fresh Turf Transformation #2",
+    "sub": "Prepared soil transformed into vibrant green lawn",
     "category": "turfing",
     "categoryLabel": "Turfing",
-    "beforeImage": "/images/img_6.webp",
+    "beforeImage": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(3).jpeg",
+    "afterImage": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(4).jpeg",
+    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(4).jpeg",
+    "isWide": true
+  },
+  {
+    "id": 14,
+    "title": "Fresh Turf Transformation #3",
+    "sub": "Prepared soil transformed into vibrant green lawn",
+    "category": "turfing",
+    "categoryLabel": "Turfing",
+    "beforeImage": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(5).jpeg",
+    "afterImage": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(6).jpeg",
+    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(6).jpeg",
+    "isWide": true
+  },
+  {
+    "id": 15,
+    "title": "Complete Lawn Installation",
+    "sub": "Soil leveling and fresh premium turf rolled",
+    "category": "turfing",
+    "categoryLabel": "Turfing",
+    "beforeImage": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM.jpeg",
     "afterImage": "/images/img_5.webp",
     "image": "/images/img_5.webp",
     "isWide": true
   },
   {
-    "id": 24,
-    "title": "Lawn Project Detail #1",
-    "sub": "Healthy, thick and cleanly cut turf finish",
+    "id": 16,
+    "title": "Full Garden Turf & Groundwork",
+    "sub": "Excavation and groundwork to freshly finished lawn",
     "category": "turfing",
     "categoryLabel": "Turfing",
-    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(3).jpeg",
-    "isWide": false
+    "beforeImage": "/images/img_4.webp",
+    "afterImage": "/images/img_9.webp",
+    "image": "/images/img_9.webp",
+    "isWide": true
   },
   {
-    "id": 25,
-    "title": "Lawn Project Detail #2",
-    "sub": "Healthy, thick and cleanly cut turf finish",
-    "category": "turfing",
-    "categoryLabel": "Turfing",
-    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(4).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 26,
-    "title": "Lawn Project Detail #3",
-    "sub": "Healthy, thick and cleanly cut turf finish",
-    "category": "turfing",
-    "categoryLabel": "Turfing",
-    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(5).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 27,
-    "title": "Lawn Project Detail #4",
-    "sub": "Healthy, thick and cleanly cut turf finish",
-    "category": "turfing",
-    "categoryLabel": "Turfing",
-    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM%20(6).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 28,
-    "title": "Lawn Project Detail #5",
-    "sub": "Healthy, thick and cleanly cut turf finish",
-    "category": "turfing",
-    "categoryLabel": "Turfing",
-    "image": "/images/Turfing/WhatsApp%20Image%202026-10-12%20at%2011.25.23%20AM.jpeg",
-    "isWide": false
-  },
-  {
-    "id": 29,
-    "title": "Boundary Fencing Transformation",
+    "id": 17,
+    "title": "Fencing Transformation #1",
     "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
@@ -293,9 +211,9 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 30,
-    "title": "Garden Boundary Fence",
-    "sub": "Clean timber fence line with gravel boards",
+    "id": 18,
+    "title": "Fencing Transformation #2",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
     "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(2).jpeg",
@@ -304,97 +222,62 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 31,
-    "title": "Fencing Project #1",
-    "sub": "Quality timber boundary installation",
+    "id": 19,
+    "title": "Fencing Transformation #3",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(4).jpeg",
-    "isWide": true
-  },
-  {
-    "id": 32,
-    "title": "Fencing Project #2",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
+    "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(4).jpeg",
+    "afterImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(5).jpeg",
     "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(5).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 33,
-    "title": "Fencing Project #3",
-    "sub": "Quality timber boundary installation",
+    "id": 20,
+    "title": "Fencing Transformation #4",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(6).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 34,
-    "title": "Fencing Project #4",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
+    "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(6).jpeg",
+    "afterImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(7).jpeg",
     "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(7).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 35,
-    "title": "Fencing Project #5",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(8).jpeg",
     "isWide": true
   },
   {
-    "id": 36,
-    "title": "Fencing Project #6",
-    "sub": "Quality timber boundary installation",
+    "id": 21,
+    "title": "Fencing Transformation #5",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
+    "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM%20(8).jpeg",
+    "afterImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM.jpeg",
     "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.23.38%20AM.jpeg",
-    "isWide": false
-  },
-  {
-    "id": 37,
-    "title": "Fencing Project #7",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(1).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 38,
-    "title": "Fencing Project #8",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(2).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 39,
-    "title": "Fencing Project #9",
-    "sub": "Quality timber boundary installation",
-    "category": "fencing",
-    "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(3).jpeg",
     "isWide": true
   },
   {
-    "id": 40,
-    "title": "Fencing Project #10",
-    "sub": "Quality timber boundary installation",
+    "id": 22,
+    "title": "Fencing Transformation #6",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
     "category": "fencing",
     "categoryLabel": "Fencing",
-    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM.jpeg",
-    "isWide": false
+    "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(1).jpeg",
+    "afterImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(2).jpeg",
+    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(2).jpeg",
+    "isWide": true
   },
   {
-    "id": 41,
+    "id": 23,
+    "title": "Fencing Transformation #7",
+    "sub": "Old perimeter replaced with secure wooden fence panels",
+    "category": "fencing",
+    "categoryLabel": "Fencing",
+    "beforeImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM%20(3).jpeg",
+    "afterImage": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM.jpeg",
+    "image": "/images/Fencing/WhatsApp%20Image%202026-10-12%20at%2011.31.34%20AM.jpeg",
+    "isWide": true
+  },
+  {
+    "id": 24,
     "title": "Patio Renovation & Paving",
     "sub": "Existing weathered paving renewed with precision cuts",
     "category": "patios",
@@ -405,9 +288,9 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 42,
-    "title": "Outdoor Living Patio Area",
-    "sub": "Modern stone patio designed for dining and seating",
+    "id": 25,
+    "title": "Outdoor Living Patio & Artificial Grass",
+    "sub": "Modern stone patio designed for dining and entertaining",
     "category": "patios",
     "categoryLabel": "Patios",
     "beforeImage": "/images/img_12.webp",
@@ -416,18 +299,20 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 43,
-    "title": "Paving & Hardscaping #1",
+    "id": 26,
+    "title": "Patio Paving Construction",
     "sub": "Durable hard-wearing outdoor patio finish",
     "category": "patios",
     "categoryLabel": "Patios",
+    "beforeImage": "/images/img_2.webp",
+    "afterImage": "/images/Patios/WhatsApp%20Image%202026-10-12%20at%2011.37.37%20AM.jpeg",
     "image": "/images/Patios/WhatsApp%20Image%202026-10-12%20at%2011.37.37%20AM.jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 44,
-    "title": "Artificial Lawn Installation",
-    "sub": "Excavated ground transformed into low-maintenance grass",
+    "id": 27,
+    "title": "Artificial Lawn Installation #1",
+    "sub": "Excavated base transformed into lush low-maintenance grass",
     "category": "artificial-grass",
     "categoryLabel": "Artificial grass",
     "beforeImage": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(1).jpeg",
@@ -436,35 +321,30 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 45,
-    "title": "Artificial Grass Showcase #1",
-    "sub": "Lush, all-weather neat green lawn",
+    "id": 28,
+    "title": "Artificial Grass Transformation #2",
+    "sub": "All-weather durable neat green lawn finish",
     "category": "artificial-grass",
     "categoryLabel": "Artificial grass",
-    "image": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(3).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 46,
-    "title": "Artificial Grass Showcase #2",
-    "sub": "Lush, all-weather neat green lawn",
-    "category": "artificial-grass",
-    "categoryLabel": "Artificial grass",
+    "beforeImage": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(3).jpeg",
+    "afterImage": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(4).jpeg",
     "image": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(4).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 47,
-    "title": "Artificial Grass Showcase #3",
-    "sub": "Lush, all-weather neat green lawn",
+    "id": 29,
+    "title": "Garden Artificial Turf Showcase",
+    "sub": "Muddy backyard converted into spotless green living space",
     "category": "artificial-grass",
     "categoryLabel": "Artificial grass",
+    "beforeImage": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM%20(1).jpeg",
+    "afterImage": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM.jpeg",
     "image": "/images/Artificial%20grass/WhatsApp%20Image%202026-10-12%20at%2011.30.55%20AM.jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 48,
-    "title": "Hedge Trimming & Shaping",
+    "id": 30,
+    "title": "Hedge Trimming Transformation #1",
     "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
     "category": "hedges",
     "categoryLabel": "Hedges",
@@ -474,108 +354,75 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 49,
-    "title": "Hedge Maintenance #1",
-    "sub": "Neatly pruned and reduced garden hedges",
+    "id": 31,
+    "title": "Hedge Trimming Transformation #2",
+    "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
     "category": "hedges",
     "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(1).jpeg",
-    "isWide": true
-  },
-  {
-    "id": 50,
-    "title": "Hedge Maintenance #2",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(1).jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(10).jpeg",
     "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(10).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 51,
-    "title": "Hedge Maintenance #3",
-    "sub": "Neatly pruned and reduced garden hedges",
+    "id": 32,
+    "title": "Hedge Trimming Transformation #3",
+    "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
     "category": "hedges",
     "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(2).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 52,
-    "title": "Hedge Maintenance #4",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(2).jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(3).jpeg",
     "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(3).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 53,
-    "title": "Hedge Maintenance #5",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(4).jpeg",
     "isWide": true
   },
   {
-    "id": 54,
-    "title": "Hedge Maintenance #6",
-    "sub": "Neatly pruned and reduced garden hedges",
+    "id": 33,
+    "title": "Hedge Trimming Transformation #4",
+    "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
     "category": "hedges",
     "categoryLabel": "Hedges",
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(4).jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(5).jpeg",
     "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(5).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 55,
-    "title": "Hedge Maintenance #7",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(6).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 56,
-    "title": "Hedge Maintenance #8",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(7).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 57,
-    "title": "Hedge Maintenance #9",
-    "sub": "Neatly pruned and reduced garden hedges",
-    "category": "hedges",
-    "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(8).jpeg",
     "isWide": true
   },
   {
-    "id": 58,
-    "title": "Hedge Maintenance #10",
-    "sub": "Neatly pruned and reduced garden hedges",
+    "id": 34,
+    "title": "Hedge Trimming Transformation #5",
+    "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
     "category": "hedges",
     "categoryLabel": "Hedges",
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(6).jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(7).jpeg",
+    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(7).jpeg",
+    "isWide": true
+  },
+  {
+    "id": 35,
+    "title": "Hedge Trimming Transformation #6",
+    "sub": "Overgrown hedges trimmed to clean, sharp boundary lines",
+    "category": "hedges",
+    "categoryLabel": "Hedges",
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(8).jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(9).jpeg",
     "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM%20(9).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 59,
-    "title": "Hedge Maintenance #11",
-    "sub": "Neatly pruned and reduced garden hedges",
+    "id": 36,
+    "title": "Hedge Maintenance #7",
+    "sub": "Precision boundary hedge pruning and reduction",
     "category": "hedges",
     "categoryLabel": "Hedges",
-    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM.jpeg",
-    "isWide": false
+    "beforeImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.58%20AM.jpeg",
+    "afterImage": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.57%20AM%20(1).jpeg",
+    "image": "/images/Hedges/WhatsApp%20Image%202026-10-12%20at%2011.34.57%20AM%20(1).jpeg",
+    "isWide": true
   },
   {
-    "id": 60,
-    "title": "Pressure Washing Transformation",
-    "sub": "Grime and moss removed to reveal pristine surfaces",
+    "id": 37,
+    "title": "Pressure Washing Transformation #1",
+    "sub": "Grime, dirt and moss jet-washed to reveal bright clean stone",
     "category": "pressure-washing",
     "categoryLabel": "Pressure washing",
     "beforeImage": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(1).jpeg",
@@ -584,39 +431,25 @@ export const galleryProjects: GalleryProject[] = [
     "isWide": true
   },
   {
-    "id": 61,
-    "title": "Jet Washing Detail #1",
-    "sub": "Deep surface cleaning for driveways and patios",
+    "id": 38,
+    "title": "Pressure Washing Transformation #2",
+    "sub": "Grime, dirt and moss jet-washed to reveal bright clean stone",
     "category": "pressure-washing",
     "categoryLabel": "Pressure washing",
-    "image": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(3).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 62,
-    "title": "Jet Washing Detail #2",
-    "sub": "Deep surface cleaning for driveways and patios",
-    "category": "pressure-washing",
-    "categoryLabel": "Pressure washing",
+    "beforeImage": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(3).jpeg",
+    "afterImage": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(4).jpeg",
     "image": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(4).jpeg",
-    "isWide": false
+    "isWide": true
   },
   {
-    "id": 63,
-    "title": "Jet Washing Detail #3",
-    "sub": "Deep surface cleaning for driveways and patios",
+    "id": 39,
+    "title": "Pressure Washing Transformation #3",
+    "sub": "Grime, dirt and moss jet-washed to reveal bright clean stone",
     "category": "pressure-washing",
     "categoryLabel": "Pressure washing",
-    "image": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(5).jpeg",
-    "isWide": false
-  },
-  {
-    "id": 64,
-    "title": "Jet Washing Detail #4",
-    "sub": "Deep surface cleaning for driveways and patios",
-    "category": "pressure-washing",
-    "categoryLabel": "Pressure washing",
+    "beforeImage": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM%20(5).jpeg",
+    "afterImage": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM.jpeg",
     "image": "/images/Pressure%20washing/WhatsApp%20Image%202026-10-12%20at%2011.51.03%20AM.jpeg",
-    "isWide": false
+    "isWide": true
   }
 ];
