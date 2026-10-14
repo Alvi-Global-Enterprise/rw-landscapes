@@ -22,7 +22,7 @@ export default function Hero() {
             View Our Work <span>↗</span>
           </a>
         </div>
-        <div className="hero-trust">
+        <div className="hero-trust mb-6">
           <span>
             <b>✓</b> Quality work
           </span>

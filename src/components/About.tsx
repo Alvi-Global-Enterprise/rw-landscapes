@@ -40,7 +40,7 @@ export default function About() {
               src="/images/img_2.webp"
               alt="Before: overgrown garden ready for clearance"
               width={600}
-              height={470}
+              height={600}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               loading="lazy"
             />
@@ -51,7 +51,7 @@ export default function About() {
               src="/images/img_3.webp"
               alt="After: finished lawn and landscaped garden"
               width={600}
-              height={470}
+              height={600}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               loading="lazy"
             />
