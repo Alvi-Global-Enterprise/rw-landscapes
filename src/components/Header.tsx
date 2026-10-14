@@ -35,7 +35,11 @@ export default function Header() {
             style={{ width: "auto", height: "auto" }}
           />
         </a>
+    
 
+
+
+    
         <nav className="navlinks" aria-label="Primary navigation">
           <a href="#services">Services</a>
           <a href="#about">About</a>
