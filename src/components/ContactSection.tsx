@@ -66,47 +66,51 @@ export default function ContactSection() {
     <section className="section contact" id="contact">
       <div className="container contact-grid">
         <aside className="contact-card reveal">
-          <span className="eyebrow" style={{ color: "#c8ff9b" }}>
-            Get in touch
-          </span>
-          <h3>Let’s talk about your garden.</h3>
-          <p>
-            For enquiries, quotes and bookings, contact RW Landscapes directly.
-          </p>
-
-          <div className="contact-item">
-            <span className="mini">☎</span>
-            <div>
-              <a href="tel:+447877722888" className="hover:underline">
-                <strong>07877 722888</strong>
-              </a>
-              <br />
-              <small>Call for a free quote</small>
-            </div>
+          <div>
+            <span className="eyebrow" style={{ color: "#c8ff9b" }}>
+              Get in touch
+            </span>
+            <h3>Let’s talk about your garden.</h3>
+            <p>
+              For enquiries, quotes and bookings, contact RW Landscapes directly.
+            </p>
           </div>
 
-          <div className="contact-item">
-            <span className="mini">☎</span>
-            <div>
-              <a href="tel:+447749264022" className="hover:underline">
-                <strong>07749 264022</strong>
-              </a>
-              <br />
-              <small>Alternative number</small>
+          <div className="flex flex-col">
+            <div className="contact-item">
+              <span className="mini">☎</span>
+              <div>
+                <a href="tel:+447877722888" className="hover:underline">
+                  <strong>07877 722888</strong>
+                </a>
+                <br />
+                <small>Call for a free quote</small>
+              </div>
             </div>
-          </div>
 
-          <div className="contact-item">
-            <span className="mini">✉</span>
-            <div>
-              <a
-                href="mailto:rwlandscapingservices1@gmail.com"
-                className="hover:underline"
-              >
-                <strong>rwlandscapingservices1@gmail.com</strong>
-              </a>
-              <br />
-              <small>Email enquiries</small>
+            <div className="contact-item">
+              <span className="mini">☎</span>
+              <div>
+                <a href="tel:+447749264022" className="hover:underline">
+                  <strong>07749 264022</strong>
+                </a>
+                <br />
+                <small>Alternative number</small>
+              </div>
+            </div>
+
+            <div className="contact-item">
+              <span className="mini">✉</span>
+              <div>
+                <a
+                  href="mailto:rwlandscapingservices1@gmail.com"
+                  className="hover:underline"
+                >
+                  <strong>rwlandscapingservices1@gmail.com</strong>
+                </a>
+                <br />
+                <small>Email enquiries</small>
+              </div>
             </div>
           </div>
         </aside>

@@ -34,6 +34,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_6.webp",
     afterImage: "/images/img_5.webp",
     image: "/images/img_5.webp",
+    isWide: true,
   },
   {
     id: 2,
@@ -43,6 +44,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_13.webp",
     afterImage: "/images/img_14.webp",
     image: "/images/img_14.webp",
+    isWide: true,
   },
   {
     id: 3,
@@ -52,6 +54,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_12.webp",
     afterImage: "/images/img_7.webp",
     image: "/images/img_7.webp",
+    isWide: true,
   },
   {
     id: 4,
@@ -71,6 +74,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_10.webp",
     afterImage: "/images/img_11.webp",
     image: "/images/img_11.webp",
+    isWide: true,
   },
   {
     id: 6,
@@ -80,6 +84,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_16.webp",
     afterImage: "/images/img_15.webp",
     image: "/images/img_15.webp",
+    isWide: true,
   },
   {
     id: 7,
@@ -89,6 +94,7 @@ const galleryData: TransformationProject[] = [
     beforeImage: "/images/img_2.webp",
     afterImage: "/images/img_17.webp",
     image: "/images/img_17.webp",
+    isWide: true,
   },
 ];
 
