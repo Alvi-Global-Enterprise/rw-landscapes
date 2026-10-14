@@ -27,10 +27,15 @@ export const metadata: Metadata = {
     "Pressure Washing",
     "Hedges",
   ],
-  authors: [{ name: "RW Landscapes" }],
   icons: {
-    icon: "/images/img_1.png",
-    apple: "/images/img_1.png",
+    icon: [
+      { url: "/images/img_1.png", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    shortcut: "/images/img_1.png",
+    apple: [
+      { url: "/images/img_1.png", type: "image/png" },
+    ],
   },
   openGraph: {
     title: "RW Landscapes | Outdoor Spaces, Built to Last",
